@@ -7,6 +7,7 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('review-order', { path: '/review/:id'});
 });
 
 export default Router;
